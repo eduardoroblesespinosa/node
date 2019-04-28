@@ -5,8 +5,6 @@ res.statusCode = 200;
 res.setHeader('Content-Type', 'text/html');
 res.end('<h1>Hello World</h1>');
 });
-const { get, socket } = server.router;
-const { render } = server.reply;
 server.listen(port,() => {
 console.log(`Server running at port `+port);
 });
