@@ -9,4 +9,6 @@ server.listen(port,() => {
 console.log(`Server running at port `+port);
 });
 const get = server.router;
+const socket = server.router;
+const renede = server.reply;
 
