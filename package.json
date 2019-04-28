@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Test on Git",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest --coverage --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardoroblesespinosa/node.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Eduardo Robles Espinosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduardoroblesespinosa/node/issues"
+  },
+  "homepage": "https://github.com/eduardoroblesespinosa/node#readme"
+}
