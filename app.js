@@ -8,18 +8,6 @@ res.end('<h1>Hello World</h1>');
 server.listen(port,() => {
 console.log(`Server running at port `+port);
 });
-const get = server.router;
-const socket = server.router;
-const render = server.reply;
-const updateCounter = ctx => {
-  ctx.io.emit('count', Object.keys(ctx.io.sockets.sockets).length);
-};
-server([
-  // For the initial load render the index.html
-  get('/', ctx => render('index.html')),
-   // Join/leave the room
-  socket('connect', updateCounter),
-  socket('disconnect', updateCounter)
-]);
+
 
 
