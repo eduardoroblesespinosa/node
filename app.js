@@ -17,5 +17,9 @@ const updateCounter = ctx => {
 server([
   // For the initial load render the index.html
   get('/', ctx => render('index.html')),
+   // Join/leave the room
+  socket('connect', updateCounter),
+  socket('disconnect', updateCounter)
+]);
 
 
