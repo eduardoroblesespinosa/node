@@ -1,7 +1,8 @@
 const http = require('http');
 var express = require('express');
 var app = express();
-app.use('./public',express.static());
+app.set('view engine','ejs');
+app.get('./public',express.static());
 //var dt = require('./style.css');
 //var dt = require('./modulo1');
 var fs = require('fs');
