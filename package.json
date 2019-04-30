@@ -26,6 +26,11 @@
     "mocha": "^3.3.0"
 
   },
+  "engines": {
+
+    "ejs": "2.5.5"
+
+  },
   "keywords": [
     "node"
   ],
