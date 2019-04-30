@@ -1,5 +1,4 @@
 const http = require('http');
-app.use('/public', espress.static('public'));
 //var dt = require('./style.css');
 //var dt = require('./modulo1');
 var fs = require('fs');
