@@ -20,7 +20,4 @@
     "url": "https://github.com/eduardoroblesespinosa/node/issues"
   },
   "homepage": "https://github.com/eduardoroblesespinosa/node#readme"
-},
-"dependencies": {
-      "express": "^4.16.4"
-  }
+}
