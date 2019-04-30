@@ -1,5 +1,5 @@
 const http = require('http');
-var dt = require('./style');
+var dt = require('./style.css');
 //var dt = require('./modulo1');
 var fs = require('fs');
 const port=process.env.PORT;
