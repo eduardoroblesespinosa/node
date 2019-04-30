@@ -1,6 +1,4 @@
 const http = require('http');
-var express = require('express');
-var app = express();
 app.use('/public', espress.static('public'));
 //var dt = require('./style.css');
 //var dt = require('./modulo1');
