@@ -2,7 +2,7 @@ const http = require('http');
 var express = require('express');
 var app = express();
 app.set('view engine','ejs');
-app.use('/public',express.static('public'));
+app.use('./public',express.static('public'));
 //var dt = require('./style.css');
 //var dt = require('./modulo1');
 var fs = require('fs');
